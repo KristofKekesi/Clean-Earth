@@ -89,7 +89,7 @@ while True:
                 finalStatus = finalStatus.replace("{name}", finalName)
 
                 print(finalStatus)
-                # api.update_status(finalStatus)
+                api.update_status(finalStatus)
 
                 # set isReposted to true
                 db.collection("repost").document(repost.id).update({"isReposted": True})
