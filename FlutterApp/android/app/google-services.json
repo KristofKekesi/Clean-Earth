@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "391553112891",
+    "project_id": "clean-earth-309121",
+    "storage_bucket": "clean-earth-309121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391553112891:android:dd4acb1813395252ba751e",
+        "android_client_info": {
+          "package_name": "com.kristofkekesi.cleanearth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391553112891-1s2ci1b673f24k8ogcq4b81ejufei827.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOtnOxOR-GqIuiKHujKL84bKrTPQ4cwWI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391553112891-1s2ci1b673f24k8ogcq4b81ejufei827.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
