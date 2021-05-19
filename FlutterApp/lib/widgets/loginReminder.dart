@@ -131,10 +131,10 @@ class LoginReminder extends StatelessWidget {
                                                     .width) /
                                                 2 *
                                                 .025)),
-                                    width: (MediaQuery.of(context).size.height +
+                                    width: (MediaQuery.of(context).size.width - ((MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
                                         2 *
-                                        .36,
+                                        .14) * 1.25) / 2,
                                     child: Padding(
                                       padding: EdgeInsets.all(
                                         MediaQuery.of(context).size.height * .0175,
@@ -185,10 +185,10 @@ class LoginReminder extends StatelessWidget {
                                                     .width) /
                                                 2 *
                                                 .025)),
-                                    width: (MediaQuery.of(context).size.height +
+                                    width: (MediaQuery.of(context).size.width - ((MediaQuery.of(context).size.height +
                                         MediaQuery.of(context).size.width) /
                                         2 *
-                                        .36,
+                                        .14) * 1.25) / 2,
                                     child: Padding(
                                       padding: EdgeInsets.all(
                                         MediaQuery.of(context).size.height * .0175,

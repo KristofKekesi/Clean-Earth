@@ -10,6 +10,8 @@
   "COMMENT": "About page",
   "about": "About",
   "creator": "Created by Kristóf Kékesi",
+  "totalPickup": "Picked up trashes: ",
+  "totalReport": "Reported trashes: ",
   "more": "More",
   "COMMENT": "Add page",
   "addNotAvailableTitle": "Not available",

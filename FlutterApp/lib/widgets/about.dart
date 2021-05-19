@@ -144,9 +144,9 @@ class About extends StatelessWidget {
                                         Align(
                                           alignment: Alignment.bottomRight,
                                           child: Tooltip(
-                                            message:
-                                                AppLocalizations.of(context)
-                                                    .translate("tooltipAboutMore"),
+                                            message: AppLocalizations.of(
+                                                    context)
+                                                .translate("tooltipAboutMore"),
                                             child: Padding(
                                               padding: EdgeInsets.all(
                                                 MediaQuery.of(context)
@@ -213,11 +213,31 @@ void autoAboutDialog(context) async {
     applicationLegalese: 'Kristóf Kékesi',
     children: [
       Column(
-    crossAxisAlignment: CrossAxisAlignment.end,
-    children: <Widget>[
-      Container(height: MediaQuery.of(context).size.width * .07,),
-      Text("Picked up trashes: " +  (prefs.getInt("localPickupId") ?? 0).toString()),
-      Text("Rreported trashes: " +  (prefs.getInt("localReportId") ?? 0).toString()),],),
+        children: <Widget>[
+          Container(
+            height: MediaQuery.of(context).size.width * .07,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.end,
+            children: <Widget>[
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(AppLocalizations.of(context).translate("totalPickup")),
+                  Text(AppLocalizations.of(context).translate("totalReport")),
+                ],
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text((prefs.getInt("localPickupId") ?? 0).toString()),
+                  Text((prefs.getInt("localReportId") ?? 0).toString()),
+                ],
+              ),
+            ],
+          )
+        ],
+      ),
     ],
   );
 }

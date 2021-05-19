@@ -59,12 +59,12 @@ class _CleanEarthMainState extends State<CleanEarthMain> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    builder: (context, child) {
-      return ScrollConfiguration(
-        behavior: NoScrollGlow(),
-        child: child,);
-    },
-
+      builder: (context, child) {
+        return ScrollConfiguration(
+          behavior: NoScrollGlow(),
+          child: child,
+        );
+      },
       localizationsDelegates: [
         AppLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
@@ -83,13 +83,12 @@ class _CleanEarthMainState extends State<CleanEarthMain> {
         }
         return supportedLocales.first;
       },
-
       debugShowCheckedModeBanner: false,
       title: "Clean Earth",
       theme: ThemeData(
         primarySwatch: createMaterialColor(Color(0xff53786F)),
         bottomSheetTheme:
-        BottomSheetThemeData(backgroundColor: Colors.black.withOpacity(0)),
+            BottomSheetThemeData(backgroundColor: Colors.black.withOpacity(0)),
       ),
       home: CustomSplash(),
     );
@@ -111,7 +110,9 @@ class _HomePageState extends State<HomePage> {
         width: MediaQuery.of(context).size.width,
         child: Stack(
           alignment: Alignment.bottomCenter,
-          children: <Widget>[CustomMap(), Header(), NavBar(),],
+          children: <Widget>[
+            CustomMap(),
+          ], //Header(), NavBar(),],
         ),
       ),
     );

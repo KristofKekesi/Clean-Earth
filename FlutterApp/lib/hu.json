@@ -10,6 +10,8 @@
   "COMMENT": "About page",
   "about": "Névjegy",
   "creator": "Készítette Kékesi Kristóf",
+  "totalPickup": "Felszedett szemetek: ",
+  "totalReport": "Jelentett szemetek: ",
   "more": "Továbbiak",
   "COMMENT": "Add page",
   "addNotAvailableTitle": "Nem elérhető",
