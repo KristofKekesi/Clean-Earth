@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
           alignment: Alignment.bottomCenter,
           children: <Widget>[
             CustomMap(),
-          ], //Header(), NavBar(),],
+          Header(), NavBar(),],
         ),
       ),
     );
