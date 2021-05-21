@@ -27,7 +27,7 @@ Latest release: __1.0__
 ## Made with <img src="https://img.shields.io/badge/Flutter-blue.svg" alt=""> <img src="https://img.shields.io/badge/Android Studio-green.svg" alt="">
 Made with __Flutter SDK__ in __Dart__. Programmed in __Android Studio__. 
 
-## Contributors <img src="https://img.shields.io/badge/46-blue.svg" alt="">
+## Contributors <img src="https://img.shields.io/badge/1-blue.svg" alt="">
 * _[Programming]_  - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
  
 * _[Logo]_ - [__Kristóf Kékesi__](https://github.com/KristofKekesi)
